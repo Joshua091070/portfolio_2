@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio website</title>
+    <link rel="stylesheet" href="./portfolio-web/css/stlye.css">
+
+    <!-- ========= boxicon ========== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--================= SWIPER JS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link rel="stylesheet" href="./css/stlye.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="logo" id="header">My Porfolio.</a>
+
+        <nav class="navbar">
+            <a href="./index.html"class="active">Home</a>
+            <a href="./portfolio-web/about.html">About</a>
+            <a href="./portfolio-web/service.html">Services</a>
+            <a href="./portfolio-web/portfolio.html">Portfolio</a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon">
+        </div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    
+    <!-- ============================ home section design ========================== -->
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Okewande Joshua</h1>
+            <p>Improve the look and feel of interactive computers and product software.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://twitter.com/JoshuaOkewande"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/okewande-joshua-476586263/"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box" style="--i:0">
+                <div class="profession">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1">
+                    <i class='bx bx-music'></i>
+                    <h3>Keyboardist</h3>
+                </div>
+                <div class="profession" style="--i:2">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:3">
+                    <i class='bx bx-bitcoin'></i>
+                    <h3>Crypto trader</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-image">
+            <img src="./portfolio-web/images/home-img-a.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- ======================= about session design ===================== -->
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./portfolio-web/images/about.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I am here to help your Next Project!</h3>
+            <p>I am a motivated web developer with two years of experience in HTML, CSS, JavaScript, and React. I was a student at SQI College of ICT, and I worked on various projects, creating responsive websites. I collaborated effectively, ensuring cross-browser compatibility and optimized performance. I have experience with third-party APIs, code reviews, and staying updated with emerging technologies. Strong problem-solving skills allow me to resolve issues efficiently. Notable projects include e-commerce websites, event management apps, and personal portfolios. References are available upon request.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- =================== services section ========================== -->
+    
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Davelopment</h3>
+                <p>Worked on a team to design and implement a new web application for the company's internal use.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-music'></i>
+                <h3>Keyboard Playing</h3>
+                <p>I have three years of experience being a Keyboardist.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bitcoin'></i>
+                <h3>Crypto Trading</h3>
+                <p>I cannot cry now</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio session design  -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./portfolio-web/images/portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Successfully delivered multiple projects on time and within budget.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <!-- <img src="./images/portfolio2.jpg" alt=""> -->
+                <img src="./portfolio-web/images/portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Supreme9ja</h4>
+                    <p>Successfully delivered multiple projects on time and within budget.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./portfolio-web/images/fylo.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Fylo</h4>
+                    <p>Successfully delivered multiple projects on time and within budget.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./portfolio-web/images/website4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Successfully delivered multiple projects on time and within budget.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./portfolio-web/images/website1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Successfully delivered multiple projects on time and within budget.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./portfolio-web/images/loginPage.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Successfully delivered multiple projects on time and within budget.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./portfolio-web/images/joshua.JPG" alt="">
+                        <h3>Okewande Joshua</h3>
+                        <p>I am a motivated web developer with two years of experience in HTML, CSS, JavaScript, and React. I was a student at SQI College of ICT, and I worked on various projects, creating responsive websites. I collaborated effectively, ensuring cross-browser compatibility and optimized performance. I have experience with third-party APIs, code reviews, and staying updated with emerging technologies. Strong problem-solving skills allow me to resolve issues efficiently. Notable projects include e-commerce websites, event management apps, and personal portfolios. References are available upon request.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./portfolio-web/images/festus.JPG" alt="">
+                        <h3>Okewande Festus</h3>
+                        <p>I am a motivated web developer with two years of experience in HTML, CSS, JavaScript, and React. I was a student at SQI College of ICT, and I worked on various projects, creating responsive websites. I collaborated effectively, ensuring cross-browser compatibility and optimized performance. I have experience with third-party APIs, code reviews, and staying updated with emerging technologies. Strong problem-solving skills allow me to resolve issues efficiently. Notable projects include e-commerce websites, event management apps, and personal portfolios. References are available upon request.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./portfolio-web/images/julius.JPG" alt="">
+                        <h3>Okewande Julius</h3>
+                        <p>I am a motivated web developer with two years of experience in HTML, CSS, JavaScript, and React. I was a student at SQI College of ICT, and I worked on various projects, creating responsive websites. I collaborated effectively, ensuring cross-browser compatibility and optimized performance. I have experience with third-party APIs, code reviews, and staying updated with emerging technologies. Strong problem-solving skills allow me to resolve issues efficiently. Notable projects include e-commerce websites, event management apps, and personal portfolios. References are available upon request.</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact session design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://formspree.io/f/xdoroezv" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="phoneno" placeholder="Phone Number" required>
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+
+    <!-- footer session design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Dev_Joshua | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home" class="iconTop"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+
+     <!-- javascrip -->
+     <script src="./portfolio-web/main.js"></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
